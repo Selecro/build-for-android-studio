@@ -4,9 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/loading_page_1">
 
-    <WebView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="125dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"
+        app:srcCompat="@drawable/wired_outline_105_loader_1" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
